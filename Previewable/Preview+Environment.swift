@@ -24,7 +24,7 @@ struct Preview_Environment_Previews: PreviewProvider {
             Preview_Environment()
             Preview_Environment().environment(\.colorScheme, ColorScheme.dark)
             Preview_Environment().previewLayout(.sizeThatFits)
-            Preview_Environment()
+            Preview_Environment().previewLayout(.fixed(width: 200, height: 200))
         }
     }
 }
