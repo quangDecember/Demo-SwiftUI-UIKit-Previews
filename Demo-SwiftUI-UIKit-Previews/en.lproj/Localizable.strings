@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  Demo-SwiftUI-UIKit-Previews
+
+  Created by Quang Hà on 14/1/20.
+  Copyright © 2020 Quang Hà. All rights reserved.
+*/
+"Hello"="Hello";
