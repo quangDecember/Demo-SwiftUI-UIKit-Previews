@@ -24,6 +24,7 @@
 		8BA13E5323CE2055000CC863 /* DirectModifier-SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E5223CE2055000CC863 /* DirectModifier-SwiftUIView.swift */; };
 		8BA13E5523CE238A000CC863 /* PageViewController+SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E5423CE238A000CC863 /* PageViewController+SwiftUIView.swift */; };
 		8BA13E5723CE24F9000CC863 /* PreviewUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E5623CE24F9000CC863 /* PreviewUtilities.swift */; };
+		8BA13E5923CE2B40000CC863 /* Preview+Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E5823CE2B40000CC863 /* Preview+Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		8BA13E5223CE2055000CC863 /* DirectModifier-SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DirectModifier-SwiftUIView.swift"; sourceTree = "<group>"; };
 		8BA13E5423CE238A000CC863 /* PageViewController+SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PageViewController+SwiftUIView.swift"; sourceTree = "<group>"; };
 		8BA13E5623CE24F9000CC863 /* PreviewUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewUtilities.swift; sourceTree = "<group>"; };
+		8BA13E5823CE2B40000CC863 /* Preview+Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview+Environment.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +107,15 @@
 			isa = PBXGroup;
 			children = (
 				8BA13E4C23CDEE0D000CC863 /* BindingSwiftUIView.swift */,
+				8BA13E5023CE1923000CC863 /* AnyViewSwiftUIView.swift */,
 				8BA13E3E23CDBE07000CC863 /* WKWebView+UIViewRepresentable.swift */,
 				8BA13E4023CDC1B8000CC863 /* MapkitSwiftUIView.swift */,
-				8BA13E4223CDC2A1000CC863 /* WKWebCoordinatorSwiftUIView.swift */,
-				8BA13E4A23CDE31A000CC863 /* Example+Localizing.swift */,
-				8BA13E4E23CE03AB000CC863 /* DeviceOrientationSwiftUIView.swift */,
-				8BA13E5023CE1923000CC863 /* AnyViewSwiftUIView.swift */,
-				8BA13E5223CE2055000CC863 /* DirectModifier-SwiftUIView.swift */,
 				8BA13E5423CE238A000CC863 /* PageViewController+SwiftUIView.swift */,
+				8BA13E4223CDC2A1000CC863 /* WKWebCoordinatorSwiftUIView.swift */,
+				8BA13E4E23CE03AB000CC863 /* DeviceOrientationSwiftUIView.swift */,
+				8BA13E4A23CDE31A000CC863 /* Example+Localizing.swift */,
+				8BA13E5223CE2055000CC863 /* DirectModifier-SwiftUIView.swift */,
+				8BA13E5823CE2B40000CC863 /* Preview+Environment.swift */,
 			);
 			path = Previewable;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				8BA13E5723CE24F9000CC863 /* PreviewUtilities.swift in Sources */,
 				8BA13E4D23CDEE0D000CC863 /* BindingSwiftUIView.swift in Sources */,
 				8BA13E5523CE238A000CC863 /* PageViewController+SwiftUIView.swift in Sources */,
+				8BA13E5923CE2B40000CC863 /* Preview+Environment.swift in Sources */,
 				8BA13E2C23CDB6EA000CC863 /* SceneDelegate.swift in Sources */,
 				8BA13E2E23CDB6EA000CC863 /* ContentView.swift in Sources */,
 				8BA13E4123CDC1B8000CC863 /* MapkitSwiftUIView.swift in Sources */,
