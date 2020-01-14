@@ -100,12 +100,15 @@ struct PageViewController_SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             UIViewControllerPreview {
-                SimpleImageViewController(name: "alarm.fill")
+                SimpleImageViewController(name: "alarm.fill") 
             }
-            PageViewController_SwiftUIView(controllers: [
-                SimpleImageViewController(name: "arkit"),
-                SimpleImageViewController(name: "arrow.clockwise")
-            ], currentPage: .constant([0,1].randomElement()!))
+            PageViewController_SwiftUIView(
+                controllers: [
+                    SimpleImageViewController(name: "arkit"),
+                    SimpleImageViewController(name: "arrow.clockwise")
+                    ].shuffled(),
+                currentPage: .constant(0)
+            )
         }
     }
 }
