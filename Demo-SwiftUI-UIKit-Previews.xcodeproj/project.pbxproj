@@ -13,6 +13,9 @@
 		8BA13E3023CDB6EB000CC863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA13E2F23CDB6EB000CC863 /* Assets.xcassets */; };
 		8BA13E3323CDB6EB000CC863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA13E3223CDB6EB000CC863 /* Preview Assets.xcassets */; };
 		8BA13E3623CDB6EB000CC863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA13E3423CDB6EB000CC863 /* LaunchScreen.storyboard */; };
+		8BA13E3F23CDBE07000CC863 /* Example+UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E3E23CDBE07000CC863 /* Example+UIViewRepresentable.swift */; };
+		8BA13E4123CDC1B8000CC863 /* MapkitSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E4023CDC1B8000CC863 /* MapkitSwiftUIView.swift */; };
+		8BA13E4323CDC2A1000CC863 /* WKWebCoordinatorSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E4223CDC2A1000CC863 /* WKWebCoordinatorSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8BA13E3223CDB6EB000CC863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BA13E3523CDB6EB000CC863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA13E3723CDB6EB000CC863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA13E3E23CDBE07000CC863 /* Example+UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example+UIViewRepresentable.swift"; sourceTree = "<group>"; };
+		8BA13E4023CDC1B8000CC863 /* MapkitSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapkitSwiftUIView.swift; sourceTree = "<group>"; };
+		8BA13E4223CDC2A1000CC863 /* WKWebCoordinatorSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebCoordinatorSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		8BA13E1D23CDB6EA000CC863 = {
 			isa = PBXGroup;
 			children = (
+				8BA13E3D23CDBDDA000CC863 /* Previewable */,
 				8BA13E2823CDB6EA000CC863 /* Demo-SwiftUI-UIKit-Previews */,
 				8BA13E2723CDB6EA000CC863 /* Products */,
 			);
@@ -73,6 +80,16 @@
 				8BA13E3223CDB6EB000CC863 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BA13E3D23CDBDDA000CC863 /* Previewable */ = {
+			isa = PBXGroup;
+			children = (
+				8BA13E3E23CDBE07000CC863 /* Example+UIViewRepresentable.swift */,
+				8BA13E4023CDC1B8000CC863 /* MapkitSwiftUIView.swift */,
+				8BA13E4223CDC2A1000CC863 /* WKWebCoordinatorSwiftUIView.swift */,
+			);
+			path = Previewable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA13E3F23CDBE07000CC863 /* Example+UIViewRepresentable.swift in Sources */,
 				8BA13E2A23CDB6EA000CC863 /* AppDelegate.swift in Sources */,
+				8BA13E4323CDC2A1000CC863 /* WKWebCoordinatorSwiftUIView.swift in Sources */,
 				8BA13E2C23CDB6EA000CC863 /* SceneDelegate.swift in Sources */,
 				8BA13E2E23CDB6EA000CC863 /* ContentView.swift in Sources */,
+				8BA13E4123CDC1B8000CC863 /* MapkitSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
