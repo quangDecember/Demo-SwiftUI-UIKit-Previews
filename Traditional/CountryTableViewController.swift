@@ -83,6 +83,15 @@ struct PreviewCollection {
         n.pushViewController(PreviewCollection.singleCountryList(), animated: true)
         return n
     }
+    static func countryTableWithAlert() -> UIViewController {
+        let alert = UIAlertController(title: "Warning", message: "some countries are at war", preferredStyle: .alert)
+        alert.addAction(.init(title: "Done", style: .cancel, handler: nil))
+        let v = singleCountryList()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+            v.present(alert, animated: true, completion: nil)
+        })
+        return v
+    }
 }
 import SwiftUI
 struct PreviewCountryTableViewController: PreviewProvider {
@@ -93,6 +102,9 @@ struct PreviewCountryTableViewController: PreviewProvider {
             }
             UIViewControllerPreview {
                 PreviewCollection.countryListNavigation()
+            }
+            UIViewControllerPreview {
+                PreviewCollection.countryTableWithAlert()
             }
         }
     }
