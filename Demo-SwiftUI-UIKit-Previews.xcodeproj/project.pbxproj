@@ -35,6 +35,9 @@
 		8BA13E7D23CEC4A1000CC863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA13E7B23CEC4A1000CC863 /* Main.storyboard */; };
 		8BA13E7F23CEC4A3000CC863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA13E7E23CEC4A3000CC863 /* Assets.xcassets */; };
 		8BA13E8223CEC4A3000CC863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA13E8023CEC4A3000CC863 /* LaunchScreen.storyboard */; };
+		8BA13E8823CEC6EF000CC863 /* SONSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E8723CEC6EF000CC863 /* SONSLayoutConstraint.swift */; };
+		8BA13E8A23CEC7B1000CC863 /* ErrorCardSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E8923CEC7B1000CC863 /* ErrorCardSwiftUIView.swift */; };
+		8BA13E8C23CECC65000CC863 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA13E8B23CECC65000CC863 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		8BA13E7E23CEC4A3000CC863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA13E8123CEC4A3000CC863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA13E8323CEC4A3000CC863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA13E8723CEC6EF000CC863 /* SONSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SONSLayoutConstraint.swift; sourceTree = "<group>"; };
+		8BA13E8923CEC7B1000CC863 /* ErrorCardSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCardSwiftUIView.swift; sourceTree = "<group>"; };
+		8BA13E8B23CECC65000CC863 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,9 +182,12 @@
 		8BA13E5A23CEB1F1000CC863 /* Traditional */ = {
 			isa = PBXGroup;
 			children = (
+				8BA13E8723CEC6EF000CC863 /* SONSLayoutConstraint.swift */,
 				8BA13E5B23CEB223000CC863 /* Traditional.storyboard */,
 				8BA13E5D23CEB264000CC863 /* CountryTableViewController.swift */,
 				8BA13E5F23CEB276000CC863 /* CountryListModel.swift */,
+				8BA13E8923CEC7B1000CC863 /* ErrorCardSwiftUIView.swift */,
+				8BA13E8B23CECC65000CC863 /* Networking.swift */,
 			);
 			path = Traditional;
 			sourceTree = "<group>";
@@ -341,12 +350,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA13E8C23CECC65000CC863 /* Networking.swift in Sources */,
 				8BA13E3F23CDBE07000CC863 /* WKWebView+UIViewRepresentable.swift in Sources */,
 				8BA13E2A23CDB6EA000CC863 /* AppDelegate.swift in Sources */,
 				8BA13E6023CEB276000CC863 /* CountryListModel.swift in Sources */,
 				8BA13E4F23CE03AB000CC863 /* DeviceOrientationSwiftUIView.swift in Sources */,
 				8BA13E4323CDC2A1000CC863 /* WKWebCoordinatorSwiftUIView.swift in Sources */,
+				8BA13E8A23CEC7B1000CC863 /* ErrorCardSwiftUIView.swift in Sources */,
 				8BA13E5123CE1923000CC863 /* AnyViewSwiftUIView.swift in Sources */,
+				8BA13E8823CEC6EF000CC863 /* SONSLayoutConstraint.swift in Sources */,
 				8BA13E5E23CEB264000CC863 /* CountryTableViewController.swift in Sources */,
 				8BA13E5323CE2055000CC863 /* DirectModifier-SwiftUIView.swift in Sources */,
 				8BA13E4B23CDE31A000CC863 /* Example+Localizing.swift in Sources */,

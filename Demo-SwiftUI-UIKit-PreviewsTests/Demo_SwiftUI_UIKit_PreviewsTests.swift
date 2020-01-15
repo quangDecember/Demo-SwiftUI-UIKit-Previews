@@ -28,4 +28,18 @@ class Demo_SwiftUI_UIKit_PreviewsTests: XCTestCase {
         let s = try JSONDecoder().decode([Country].self, from: MockServerResponse.allCountries.data(using: .utf8)!)
         print(s)
     }
+    
+    func testCallRestCountries() {
+        let exp = XCTestExpectation(description: "complete network")
+        Loader.init().loadCountries(completion: {result in
+            switch result {
+            case .success(let l):
+                print(l)
+                exp.fulfill()
+            case .failure(let err):
+                XCTFail("\(err)")
+            }
+        })
+        wait(for: [exp], timeout: 5)
+    }
 }
